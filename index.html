@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>[Anderson Silva] Meme Generator</title>
+</head>
+<body>
+    <section id="default-meme">
+        <h2 id="memes-title">Memes recomendados</h2>
+        <img src="imgs/meme1.png" alt="" id="meme-1">
+        <img src="imgs/meme2.png" alt="" id="meme-2">
+        <img src="imgs/meme3.png" alt="" id="meme-3">
+        <img src="imgs/meme4.png" alt="" id="meme-4">
+        <input type="file" id="meme-insert">
+    </section>
+    <section id="text">
+        <h2 id="memes-title">Digite seu texto</h2>
+        <input type="text" id="text-input" maxlength="60">
+    </section>
+    <section id="borderButtons">
+        <h2 id="border">Escolha uma borda</h2>
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+        <button id="none-border" class="selected-border">Padrão</button>
+    </section>
+    <div id="meme-image-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>

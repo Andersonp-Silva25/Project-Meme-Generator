@@ -1,0 +1,94 @@
+#meme-image-container {
+    width: 250px;
+    height: 300px;
+    border: black solid 1px;
+    background-color: white;
+}
+
+#meme-image {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
+#meme-text {
+    position: absolute;
+    z-index: 1;
+    padding-left: 20px;
+    text-shadow: black 5px 5px 5px;
+    font-size: 30px;
+    color: white;
+    width: 210px;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+#meme-insert {
+    cursor: pointer;
+}
+
+#borderButtons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#border {
+    margin-bottom: 5px;
+}
+
+#fire {
+    padding: 10px;
+    width: 80px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#water {
+    padding: 10px;
+    width: 80px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#earth {
+    padding: 10px;
+    width: 80px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#none-border {
+    padding: 10px;
+    width: 80px;
+    background-color: rgb(66, 63, 63);
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#default-meme img {
+    width: 80px;
+    margin-right: 5px;
+    border: black solid 2px;
+}
+
+#memes-title {
+    margin-bottom: 5px;
+}
+
